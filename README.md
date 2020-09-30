@@ -1,0 +1,1 @@
+dotnet new razor -0 "ProjectName"
