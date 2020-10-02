@@ -26,13 +26,23 @@ namespace dotNet
                 app.UseDeveloperExceptionPage();
             }
 
+            //Adicionando uma lista da class Livros que criei
+            var livros = new List<Livro>();
+            livros.Add(new Livro("001","Livro 1", 12.99m)); //sufixo "m" indica que é decimal 
+            livros.Add(new Livro("002", "Livro 2", 23m));
+            livros.Add(new Livro("003", "Livro 3", 43.23m));
+
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    foreach(var livro in livros) {
+                        //Faz a requisição mandando para o endereço, o -10,-40,10 => Significa permite o num de caracteres, o"-" é para alinhar a esquerda, e o toString("C") formata o texto em Moeda
+                        await context.Response.WriteAsync($"{livro.Codigo,-10}{livro.Nome,-40}{livro.Preco.ToString("C"),10}\r\n");
+                    }
                 });
             });
         }
