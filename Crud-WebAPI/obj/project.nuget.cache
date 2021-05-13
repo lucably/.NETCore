@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3uJYCFGjSDEltxS73YSbz45Fq/v9xhLCB5uzLqYITuO26Ypp51CgkaeWn/7zmaYJn6DF4ia9YCz+nQfwDFQGeg==",
+  "dgSpecHash": "nuJldhkIKfPGFJkuSona/EIGkuVbRWq9of80d1MX4IRCLlJ6q7BdrfpCUbGVmkORPOAoC4hNcHre6b16NTg1Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
+  "projectFilePath": "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.15\\microsoft.aspnetcore.jsonpatch.3.1.15.nupkg.sha512",
+    "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.15\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.15.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -31,6 +33,8 @@
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.extensions.options\\3.1.15\\microsoft.extensions.options.3.1.15.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.15\\microsoft.extensions.primitives.3.1.15.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\PICHAU\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\PICHAU\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",

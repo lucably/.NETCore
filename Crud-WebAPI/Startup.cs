@@ -41,7 +41,27 @@ namespace Crud_WebAPI
                 typeDB => typeDB.UseSqlite(Configuration.GetConnectionString("DefaultConn"))
             );
 
-            services.AddControllers();
+            //  AddNewtonsoftJson() => Como tenho uma tabela que chama outra e essa chama a msm estava entrando em ciclos ai precisei add esse dependencia.
+            // Exp> Aluno chama DisciplinaAluno e DisciplinaAluno chama Aluno ai ficava em loop.
+            // opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore => essa config faz ignorar o loop infinito.
+            services.AddControllers()
+                    .AddNewtonsoftJson(opt => opt.SerializerSettings.ReferenceLoopHandling =
+                    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            /*
+            Injeção de dependencia, adicionando uma Interface a uma  classe. ( repository ), organizando o acesso ao DB
+            Serve para encapsula os a rquivos no DataContext, ai criamos esse Repository.
+            Ai quando for chamar no construtor dos Controllers ( aluno e professor ) passa da seguinte forma:
+
+            public AlunoController(IRepository repo)
+            {
+
+            }
+
+            Essa forma tb ajuda nos test unitario
+            */
+            services.AddScoped<IRepository, Repository>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Crud_WebAPI", Version = "v1" });

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Crud_WebAPI.Models
 {
     public class Disciplina
@@ -13,5 +15,6 @@ namespace Crud_WebAPI.Models
         public string Nome { get; set; }
         public int ProfessorId { get; set; }
         public Professor Professor { get; set; }
+        public IEnumerable<AlunoDisciplina> AlunosDisciplinas { get; set; }
     }
 }
