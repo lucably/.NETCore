@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nuJldhkIKfPGFJkuSona/EIGkuVbRWq9of80d1MX4IRCLlJ6q7BdrfpCUbGVmkORPOAoC4hNcHre6b16NTg1Zw==",
+  "dgSpecHash": "Wko0STaBA6RKkelxA2hKuuuQ2AqhkkSWXn7GYrR0UGZ9nBIr8R6jQARoMurDGPYLxvFDkbYNDRSyu1HW9qyxJQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.15\\microsoft.aspnetcore.jsonpatch.3.1.15.nupkg.sha512",
     "C:\\Users\\PICHAU\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.15\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.15.nupkg.sha512",

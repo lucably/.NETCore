@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj": {}
+    "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj": {
+    "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
         "projectName": "Crud-WebAPI",
-        "projectPath": "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
+        "projectPath": "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\Crud-WebAPI.csproj",
         "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\PICHAU\\Desktop\\Projetos\\.NetCore\\ASP.NET-Core\\Crud-WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config"
